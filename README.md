@@ -22,8 +22,8 @@ Following technologies has been used to develop it.
  - Docker Compose
 
 ## Assumptions:
-1. We are considering top plants on basis of number of generators they have
-2. Federal State percentage for plant is calculated on basis of number of generators for plant out of total generators for that state
+1. We are considering top plants on basis of net generation of power plants they have
+2. Federal State percentage for plant is calculated on basis of net generation of power plants for that state
 
 ### Run Applications
 
@@ -76,6 +76,7 @@ HTTP Code: 200
 ```
 
 ### Features which could have been done:
+- An UI with Map 
 - Need to add proper error handling
 - Need to add proper logs mechanism
 - Need to add the unit and integration testings
