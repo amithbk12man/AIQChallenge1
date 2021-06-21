@@ -1,0 +1,9 @@
+version: '3'
+services:
+  plant-service:
+    container_name: challenge1
+    build: .
+    environment:
+      PORT: 9080
+    ports:
+      - 9080:9080
